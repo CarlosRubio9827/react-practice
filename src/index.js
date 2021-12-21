@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App'
+import App from './routes/App'
 
 
 ReactDOM.render(
     
     <React.Fragment>
         <App/>
-        <div>
-        dasda
-        </div>
+        
     </React.Fragment>
     , document.getElementById('app')
     );
